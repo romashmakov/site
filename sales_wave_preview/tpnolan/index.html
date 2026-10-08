@@ -3,57 +3,59 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f4f2ec">
+  <meta name="theme-color" content="#f5f4ef">
   <meta name="description" content="TPNOLAN plumbing and heating services. Unofficial design concept, not live.">
   <title>TPNOLAN — Plumbing &amp; Heating | Proposed Concept</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
-  <div class="concept-ribbon">Proposed design concept · Not live</div>
+  <div class="concept-ribbon">Proposed design concept <span>·</span> Not live</div>
   <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="TPNOLAN home"><img src="assets/tpnolan-mark.png" alt="TPNOLAN original monogram"></a>
-    <div class="brand-caption">Plumbing <span>&amp;</span> heating</div>
+    <a class="brand" href="#top" aria-label="TPNOLAN home"><img src="assets/tpnolan-mark.png" alt="TPNOLAN original monogram"><span>Plumbing &amp; heating</span></a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span class="menu-icon" aria-hidden="true"><i></i><i></i></span><span>Menu</span></button>
-    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation"><a href="#services">Services</a><a href="#prices">Price examples</a><a href="#contact">Contact</a></nav>
-    <a class="header-contact" href="tel:+447758653127"><span class="contact-label">Talk to TPNOLAN</span><strong>07758 653127</strong><span class="contact-arrow" aria-hidden="true">↗</span></a>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation"><a href="#services">Services</a><a href="#prices">Price guide</a><a href="#contact">Contact</a></nav>
+    <a class="header-contact" href="tel:+447758653127"><span>Call TPNOLAN</span><strong>07758 653127</strong><b aria-hidden="true">↗</b></a>
   </header>
 
   <main>
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="area-label"><span></span> Plumbing &amp; heating · Greater Manchester</p>
-        <h1 id="hero-title">Keeping your home<br><em>working as it should.</em></h1>
-        <p class="hero-summary">Gas, heating, plumbing and bathroom services from TPNOLAN. Get in touch to talk through the work you need.</p>
+        <p class="area-label">Plumbing &amp; heating <span aria-hidden="true">/</span> Greater Manchester</p>
+        <h1 id="hero-title">Plumbing and heating for your home.</h1>
+        <p class="hero-summary">Gas, heating, plumbing and bathroom services from TPNOLAN. Call or email to discuss the work you need.</p>
         <div class="hero-actions"><a class="button button-ink" href="tel:+447758653127"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.8 9.3 3l2 4.6-1.8 1.5a14 14 0 0 0 5.4 5.4l1.5-1.8 4.6 2-.8 2.7a2.4 2.4 0 0 1-2.6 1.7A16.5 16.5 0 0 1 4.9 6.4a2.4 2.4 0 0 1 1.7-2.6Z"/></svg>Call 07758 653127</a><a class="email-action" href="mailto:support@tpnolan.co.uk">Email TPNOLAN <span aria-hidden="true">↗</span></a></div>
-        <p class="service-note">Boilers · Heating · Plumbing · Bathrooms</p>
       </div>
-      <aside class="price-preview" id="prices" aria-labelledby="price-title">
-        <div class="price-head"><div><p class="small-label">Published price examples*</p><h2 id="price-title">A few useful guide prices.</h2></div><span class="price-symbol" aria-hidden="true">£</span></div>
-        <div class="price-row"><span>Boiler service</span><strong>£60</strong></div>
-        <div class="price-row"><span>Gas safety certificate</span><strong>£50</strong></div>
-        <div class="price-row"><span>Tap repair / replacement</span><strong>£60–£120</strong></div>
-        <div class="price-row"><span>Toilet repair</span><strong>£70–£120</strong></div>
-        <p class="price-caveat">*Examples published on TPNOLAN’s existing website. Confirm current price, inclusions and job scope with the company.</p>
+      <aside class="price-preview" aria-labelledby="price-title">
+        <div class="price-heading"><p class="small-label">Price examples from the company site</p><h2 id="price-title">A quick guide</h2></div>
+        <div class="price-preview-lines"><p><span>Boiler service</span><strong>£60</strong></p><p><span>Gas safety certificate</span><strong>£50</strong></p></div>
+        <a class="price-link" href="#prices">See all published examples <span aria-hidden="true">↓</span></a>
       </aside>
+      <div class="hero-local"><span class="local-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2"/></svg></span><span><strong>TPNOLAN</strong><small>Plumbing &amp; heating</small></span><a href="mailto:support@tpnolan.co.uk">support@tpnolan.co.uk</a></div>
     </section>
 
     <section class="services-section" id="services" aria-labelledby="services-title">
-      <div class="section-title"><div><p class="small-label">What TPNOLAN does</p><h2 id="services-title">Choose a service<br>to start the conversation.</h2></div><p>Not sure which category fits? Call or email and describe the job.</p></div>
-      <div class="services-grid">
-        <article class="service-card"><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="8" y="4" width="16" height="24" rx="2"/><path d="M12 10h8m-8 4h8m-8 4h5m-4 6h6"/></svg></div><div class="service-card-copy"><span class="service-kind">01 · GAS</span><h3>Gas &amp; boilers</h3><p>Boiler installation and servicing, plus gas safety certificates.</p><a href="#contact">Ask about gas work <span aria-hidden="true">→</span></a></div></article>
-        <article class="service-card"><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 25h22M8 23V9h16v14M12 9V5h8v4m-8 7h8m-8 4h8"/></svg></div><div class="service-card-copy"><span class="service-kind">02 · HEATING</span><h3>Heating</h3><p>Radiators, power flushing and heating system cleaning.</p><a href="#contact">Ask about heating <span aria-hidden="true">→</span></a></div></article>
-        <article class="service-card"><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M9 7h14M13 7v7m6-7v7M7 14h18v13H7zM12 19h8m-4-5v10"/></svg></div><div class="service-card-copy"><span class="service-kind">03 · PLUMBING</span><h3>Plumbing</h3><p>Leaks, taps, toilets, hot water cylinders and plumbing maintenance.</p><a href="#contact">Ask about plumbing <span aria-hidden="true">→</span></a></div></article>
-        <article class="service-card"><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M4 20h24M7 19V9h18v10M10 9V5h12v4m-12 0v6m12-6v6M8 24h16"/></svg></div><div class="service-card-copy"><span class="service-kind">04 · BATHROOMS</span><h3>Bathrooms</h3><p>Bathroom design and installation, alongside bathroom fault finding.</p><a href="#contact">Ask about bathrooms <span aria-hidden="true">→</span></a></div></article>
+      <div class="section-intro"><p class="small-label">Services</p><h2 id="services-title">What can we help with?</h2><p>Choose the closest match, then contact TPNOLAN to discuss the details.</p></div>
+      <div class="service-list">
+        <article class="service-row"><div class="service-title"><span class="service-symbol gas-symbol" aria-hidden="true"><svg viewBox="0 0 28 28"><rect x="6" y="3.5" width="16" height="21" rx="1.5"/><path d="M10 9h8m-8 4h8m-8 4h5m-4 4h6"/></svg></span><h3>Gas &amp; boilers</h3></div><p>Boiler installation and servicing, gas safety certificates and other gas work.</p><a href="#contact">Discuss gas work <span aria-hidden="true">→</span></a></article>
+        <article class="service-row"><div class="service-title"><span class="service-symbol heating-symbol" aria-hidden="true"><svg viewBox="0 0 28 28"><path d="M4 22h20M7 20V8h14v12M10 8V5h8v3m-8 6h8m-8 3h8"/></svg></span><h3>Heating</h3></div><p>Radiators, power flushing and heating system cleaning.</p><a href="#contact">Discuss heating <span aria-hidden="true">→</span></a></article>
+        <article class="service-row"><div class="service-title"><span class="service-symbol plumbing-symbol" aria-hidden="true"><svg viewBox="0 0 28 28"><path d="M7 6h14m-10 0v6m6-6v6M5 12h18v12H5zM10 17h8m-4-5v9"/></svg></span><h3>Plumbing</h3></div><p>Leaks, taps, toilets, hot water cylinders and plumbing maintenance.</p><a href="#contact">Discuss plumbing <span aria-hidden="true">→</span></a></article>
+        <article class="service-row"><div class="service-title"><span class="service-symbol bathroom-symbol" aria-hidden="true"><svg viewBox="0 0 28 28"><path d="M4 17h20m-17-1V7a3 3 0 0 1 6 0v2m7-2h3v9m-15 2 2 5m13-5-2 5"/></svg></span><h3>Bathrooms</h3></div><p>Bathroom design and installation, alongside bathroom fault finding.</p><a href="#contact">Discuss bathrooms <span aria-hidden="true">→</span></a></article>
       </div>
     </section>
 
-    <section class="contact-strip" id="contact" aria-labelledby="contact-title">
-      <div class="contact-copy"><p class="small-label">Start with a conversation</p><h2 id="contact-title">Tell TPNOLAN<br>what you need.</h2><p>Contact the company directly to discuss the job, confirm current pricing and agree what happens next.</p></div>
-      <div class="contact-actions"><a class="contact-method phone-method" href="tel:+447758653127"><span class="method-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6.6 3.8 9.3 3l2 4.6-1.8 1.5a14 14 0 0 0 5.4 5.4l1.5-1.8 4.6 2-.8 2.7a2.4 2.4 0 0 1-2.6 1.7A16.5 16.5 0 0 1 4.9 6.4a2.4 2.4 0 0 1 1.7-2.6Z"/></svg></span><span><small>Call</small><strong>07758 653127</strong></span><span class="method-arrow" aria-hidden="true">↗</span></a><a class="contact-method" href="mailto:support@tpnolan.co.uk"><span class="method-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="m4.5 7 7.5 6 7.5-6"/></svg></span><span><small>Email</small><strong>support@tpnolan.co.uk</strong></span><span class="method-arrow" aria-hidden="true">↗</span></a></div>
+    <section class="price-section" id="prices" aria-labelledby="prices-title">
+      <div class="price-section-heading"><div><p class="small-label">Published examples</p><h2 id="prices-title">Price guide</h2></div><p>These figures are shown on TPNOLAN’s existing website. Confirm the current price and job scope with the company.</p></div>
+      <dl class="price-list"><div><dt>Boiler service</dt><dd>£60</dd></div><div><dt>Gas safety certificate</dt><dd>£50</dd></div><div><dt>Tap repair / replacement</dt><dd>£60–£120</dd></div><div><dt>Toilet repair</dt><dd>£70–£120</dd></div></dl>
+      <p class="price-disclaimer">Price examples are reproduced for concept purposes and may have changed. They are not a current quote.</p>
     </section>
-    <p class="concept-note">This is an unofficial design concept and is not the live TPNOLAN website. Price examples are reported from the existing company site and require confirmation.</p>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-heading"><p class="small-label">Get in touch</p><h2 id="contact-title">Talk through the job.</h2><p>Contact TPNOLAN directly to discuss what you need and confirm the next step.</p></div>
+      <div class="contact-details"><a class="contact-phone" href="tel:+447758653127"><span class="contact-label">Telephone</span><strong>07758 653127</strong><span class="contact-arrow" aria-hidden="true">↗</span></a><a class="contact-email" href="mailto:support@tpnolan.co.uk"><span class="contact-label">Email</span><strong>support@tpnolan.co.uk</strong><span class="contact-arrow" aria-hidden="true">↗</span></a></div>
+    </section>
+    <p class="concept-note">Unofficial design concept; not the live TPNOLAN website. Company details, services and prices should be confirmed before use.</p>
   </main>
-  <footer class="site-footer"><a class="footer-brand" href="#top"><img src="assets/tpnolan-mark.png" alt="TPNOLAN"></a><span>Plumbing &amp; heating</span><a href="tel:+447758653127">07758 653127</a><span class="footer-note">Proposed concept · Not live</span></footer>
+  <footer class="site-footer"><a class="footer-brand" href="#top"><img src="assets/tpnolan-mark.png" alt="TPNOLAN original monogram"><span>Plumbing &amp; heating</span></a><span class="footer-area">Greater Manchester</span><a class="footer-phone" href="tel:+447758653127">07758 653127</a><span class="footer-note">Proposed concept · Not live</span></footer>
 </body>
 </html>
